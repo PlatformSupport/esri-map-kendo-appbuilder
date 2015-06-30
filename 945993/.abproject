@@ -1,11 +1,11 @@
 {
   "ProjectName": "945993",
-  "ProjectGuid": "f5e863dd-6ae1-4be4-9f1e-994b39cdfb20",
+  "ProjectGuid": "88201fd0-7c4c-4e0a-8573-8de1737b7905",
   "projectVersion": 1,
-  "AppIdentifier": "com.telerik.the945993",
-  "DisplayName": "945993",
+  "AppIdentifier": "com.telerik.esrimap",
+  "DisplayName": "esri_map",
   "Author": "",
-  "Description": "945993",
+  "Description": "esri_map",
   "BundleVersion": "1.0",
   "AndroidVersionCode": "1",
   "iOSDeviceFamily": [
@@ -32,10 +32,10 @@
     "ID_CAP_WEBBROWSERCOMPONENT"
   ],
   "WP8Requirements": [],
-  "WP8PublisherID": "{cfcff5c2-ed94-4cd8-96ce-e8def457cc84}",
-  "WP8ProductID": "{71e6b157-b3bd-4488-a291-90b3387556de}",
+  "WP8PublisherID": "{19d55f64-bb03-482a-b4e0-f740d99497ae}",
+  "WP8ProductID": "{06a463e6-decb-4a0d-9bf7-7dcfe5e12860}",
   "WPSdk": "8.0",
-  "WP8PackageIdentityName": "1234Telerik.the945993",
+  "WP8PackageIdentityName": "1234Telerik.esrimap",
   "WP8WindowsPublisherName": "CN=Telerik",
   "WP8SupportedResolutions": [
     "ID_RESOLUTION_WVGA",

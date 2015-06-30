@@ -33,8 +33,22 @@ var app = {
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
-        app.receivedEvent('deviceready');
+        //app.receivedEvent('deviceready');
         navigator.splashscreen.hide();
+		
+		 var app = new kendo.mobile.Application(document.body);
+
+         var map;
+        
+         require(["esri/map", "dojo/domReady!"], function(Map) {
+
+          map = new Map("map", {
+            basemap: "streets",
+            center: [-122.45,37.75], // long, lat
+            zoom: 7,
+            sliderStyle: "small"
+          });
+        });   
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
