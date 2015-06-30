@@ -6,11 +6,11 @@ if (window.ICE_SimulatorBridge) {
 	
 	// fix for some styles using the remote resources
 	var f = Element.prototype.appendChild;
-	Element.prototype.appendChild = function(){
+	Element.prototype.appendChild = function() {
 		var element = arguments[0];
 		if (element && element.style && element.style.backgroundImage && element.style.backgroundImage.indexOf("local://js.arcgis.com") !== -1) {
 			element.style.backgroundImage = element.style.backgroundImage.replace("local://", "http://");
-			arguments[0] =  element;
+			arguments[0] = element;
 		}
 
 		return f.apply(this, arguments);
